@@ -1,0 +1,569 @@
+.header-truckload {
+    background-image: url(../img/truckload/background-truckload.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+}
+
+.header-truckload .txt-truckload {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-truckload .txt-truckload h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+
+@media screen and (max-width: 769px) {
+    .header-truckload .txt-truckload {
+        padding-bottom: 4rem;
+    }
+    .header-truckload {
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width: 626px) {
+    .header-truckload .txt-truckload  h1 {
+        font-size: 90px;
+    } 
+}
+
+/* dry van */
+.section-dry-van {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-dry-van .cont-dry-van {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+#title-dry {
+    margin-bottom: 2rem;
+}
+
+.section-dry-van  h1 {
+    color: #15359d;
+}
+
+.section-dry-van .cont-dry-van p {
+    color: #15359d;
+    text-align: justify;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 13px;
+}
+
+.section-dry-van .cont-dry-van a {
+    padding: 10px;
+    border: 2px solid #03c0fe;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #03c0fe;
+    margin-top: 2rem;
+}
+
+.section-dry-van .cont-dry-van a:hover {
+    background-color: #068bb8d2;
+    color: #fff;
+    transition: all 0.7s;
+}
+
+.section-dry-van .cont-dry-van span {
+    font-weight: bold;
+}
+
+.section-dry-van .cont-dry-van .grid-dry-van {
+   display: grid;
+   grid-gap: 1rem;
+   grid-template-columns: repeat(auto-fit, minmax(300, 1rem)); 
+}
+
+.section-dry-van .cont-dry-van .grid-dry-van .bx-dry-van {
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.section-dry-van .cont-dry-van .grid-dry-van img {
+    width: 20%;
+}
+
+.section-dry-van .cont-dry-van .grid-dry-van h1 {
+    font-size: 18px;
+    color: #15359d;
+}
+
+@media screen and (max-width: 855px) {
+    .section-dry-van .cont-dry-van .grid-dry-van h1 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 584px) {
+    .section-dry-van .cont-dry-van .grid-dry-van h1 {
+        font-size: 12px;
+    }
+    .section-dry-van .cont-dry-van a {
+      font-size: 12px;
+    }
+    #title-dry {
+        font-size: 17px;
+    }
+    
+}
+
+@media screen and (min-width: 583px) {
+    .section-dry-van .cont-dry-van .grid-dry-van {
+        grid-template-columns: repeat(5, 1fr); 
+     }
+     .section-dry-van {
+        height: 90vh;
+    }
+    .section-dry-van .cont-dry-van .grid-dry-van img {
+        width: 40%;
+    }
+    .section-dry-van .cont-dry-van {
+        width: 80%;
+    }
+    .section-dry-van .cont-dry-van p {
+      font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .section-dry-van .cont-dry-van {
+        width: 60%;
+    }
+}
+
+/* temperature control */
+.section-temperature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #03c0fe;
+    padding: 1rem;
+}
+
+.section-temperature .cont-temperature {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#title-temperature {
+    margin-bottom: 2rem;
+}
+
+.cont-temperature h1 {
+    color: #fff;
+}
+
+.section-temperature .cont-temperature  p {
+    color: #fff;
+    text-align: justify;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 13px;
+}
+
+.section-temperature a {
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.section-temperature a:hover {
+    background-color: #fff;
+    color: #03c0fe;
+    transition: all 0.7s;
+}
+
+.section-temperature .cont-temperature span {
+    font-weight: bold;
+}
+
+.section-temperature .cont-temperature .grid-temperature {
+   display: grid;
+   grid-gap: 1rem;
+   grid-template-columns: repeat(auto-fit, minmax(300, 1rem)); 
+}
+
+.section-temperature .cont-temperature .grid-temperature .bx-temp {
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.section-temperature .cont-temperature .grid-temperature img {
+    width: 20%;
+}
+
+.section-temperature .cont-temperature .grid-temperature h1 {
+    font-size: 18px;
+    color: #15359d;
+}
+
+@media screen and (max-width: 855px) {
+    .section-temperature .cont-temperature .grid-temperature h1 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 584px) {
+    .section-temperature .cont-temperature .grid-temperature h1 {
+        font-size: 12px;
+    }
+    .section-temperature a {
+      font-size: 12px;
+    }
+    #title-temperature {
+        font-size: 17px
+    }
+}
+
+@media screen and (min-width: 583px) {
+    .section-temperature .cont-temperature .grid-temperature {
+        grid-template-columns: repeat(4, 1fr); 
+     }
+     .section-temperature  {
+        height: 90vh;
+    }
+    .section-temperature .cont-temperature .grid-temperature img {
+        width: 40%;
+    }
+    .section-temperature .cont-temperature {
+        width: 80%;
+    }
+    .section-temperature .cont-temperature p {
+      font-size: 16px;
+      margin-bottom: 2rem;
+    }
+    .section-temperature a {
+        margin-top: 2rem;
+    }
+    
+}
+
+@media screen and (min-width: 1300px) {
+    .section-temperature .cont-temperature {
+        width: 60%;
+    }
+}
+
+/* --------- */
+/* open deck */
+/* --------- */
+
+.section-open-deck {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #15359d;
+    padding: 1rem;
+}
+
+.section-open-deck .cont-open-deck {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#title-open {
+    margin-bottom: 2rem;
+}
+
+.cont-open-deck h1 {
+    color: #fff;
+}
+
+.section-open-deck .cont-open-deck p {
+    color: #fff;
+    text-align: justify;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 13px;
+}
+
+.section-open-deck a {
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.section-open-deck a:hover {
+    background-color: #fff;
+    color: #03c0fe;
+    transition: all 0.7s;
+}
+
+.section-open-deck .cont-open-deck  span {
+    font-weight: bold;
+}
+
+.section-open-deck .cont-open-deck .grid-open-deck {
+   display: grid;
+   grid-gap: 1rem;
+   grid-template-columns: repeat(auto-fit, minmax(300, 1rem)); 
+}
+
+.section-open-deck .cont-open-deck .grid-open-deck .bx-open {
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.section-open-deck .cont-open-deck .grid-open-deck img {
+    width: 20%;
+}
+
+.section-open-deck .cont-open-deck .grid-open-deck h1 {
+    font-size: 18px;
+    color: #fff;
+}
+
+@media screen and (max-width: 855px) {
+    .section-open-deck .cont-open-deck .grid-open-deck h1 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 584px) {
+    .section-open-deck a {
+      font-size: 12px;
+    }
+    #title-open {
+        font-size: 17px
+    }
+}
+
+@media screen and (min-width: 583px) {
+    .section-open-deck .cont-open-deck .grid-open-deck {
+        grid-template-columns: repeat(5, 1fr); 
+     }
+     .section-open-deck  {
+        height: 90vh;
+    }
+    .section-open-deck .cont-open-deck .grid-open-deck img {
+        width: 50%;
+    }
+    .section-open-deck .cont-open-deck{
+        width: 80%;
+    }
+    .section-open-deck .cont-open-deck p {
+      font-size: 16px;
+      margin-bottom: 2rem;
+    }
+    .section-open-deck a {
+        margin-top: 2rem;
+    }
+    
+}
+
+@media screen and (min-width: 1300px) {
+    .section-open-deck .cont-open-deck {
+        width: 60%;
+    }
+}
+
+/* ----------  */
+/*  Why chose  */
+/* ----------  */
+
+.section-chose {
+    background-image: url(../img/truckload/chose-background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-chose .cont-chose {
+    width: 100%;
+    padding: 1rem;
+}
+
+.section-chose h1 {
+    color: #15359d;
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+
+.section-chose .cont-chose .grid-chose {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+}
+
+.section-chose .cont-chose .grid-chose  p {
+    font-size: 14px;
+    text-align: justify;
+    color: #15359d;
+}
+
+@media screen and (max-width: 569px) {
+    .section-chose .cont-chose .grid-chose {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    } 
+}
+
+@media screen and (min-width: 855px) {
+    .section-chose .cont-chose .grid-chose {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .section-chose .cont-chose .grid-chose .bx-chose {
+        grid-column: 1 / 3;
+    }
+    
+    .section-chose .cont-chose .grid-chose .bx-chose-2 {
+        grid-column: 5 / 8;
+    }
+    .section-chose h1 {
+        margin-bottom: 3rem;
+        font-size: 25px;
+    }
+    .section-chose .cont-chose {
+        width: 80%;
+    }
+}
+
+/* --------------  */
+/* other truckload */
+/* --------------  */
+.other-tuckload {
+    background-image: url(../img/bar-blue.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+}
+
+.other-tuckload h1 {
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 17px;
+}
+
+.other-tuckload .cont-other-truckload {
+width: 100%;
+margin: 0 auto;
+}
+
+.other-tuckload .cont-other-truckload p {
+    color: #fff;
+    text-align: justify;
+    font-size: 13px;
+}
+
+.other-tuckload .cont-other-truckload .grid-other-truckload  {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300, 1fr));
+}
+
+.other-tuckload .cont-other-truckload .grid-other-truckload .bx-button {
+    display: flex;
+    align-items: flex-end;
+}
+
+.other-tuckload .cont-other-truckload .grid-other-truckload .bx-truckload a {
+    padding: 10px;
+    border: 2px solid #03c0fe;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #03c0fe;
+    margin-top: 2rem;
+    font-size: 13px;
+}
+
+.other-tuckload .cont-other-truckload .grid-other-truckload .bx-truckload a:hover {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+
+.other-tuckload .cont-other-truckload .grid-other-truckload h2 {
+  font-size: 17px;
+  color: #fff;
+}
+
+.other-tuckload .cont-other-truckload .grid-other-truckload img {
+    width: 20%;
+}
+
+@media screen and (min-width: 876px) {
+    .other-tuckload .cont-other-truckload .grid-other-truckload  {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .other-tuckload .cont-other-truckload .grid-other-truckload .bx-truckload {
+        padding: 1rem;
+    }
+    .other-tuckload .cont-other-truckload {
+        width: 80%;
+    } 
+    .other-tuckload .cont-other-truckload .grid-other-truckload .bx-button {
+        justify-content: right;
+    }
+    .other-tuckload .cont-other-truckload .grid-other-truckload h2 {
+        font-size: 20px;
+    }
+    .other-tuckload h1 {
+       font-size: 30px;
+    }
+    .other-tuckload .cont-other-truckload p {
+       font-size: 15px;
+    }
+    .other-tuckload .cont-other-truckload .grid-other-truckload .bx-truckload a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 876px) {
+    .other-tuckload .cont-other-truckload img{
+        display: block;
+        margin: 0 auto;
+        width: 30%;
+    }
+    .other-tuckload .cont-other-truckload h2{
+        text-align: center;
+    }
+    .other-tuckload .cont-other-truckload .grid-other-truckload .bx-truckload a {
+        margin: 0 auto;
+    }
+}

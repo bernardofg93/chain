@@ -1,0 +1,148 @@
+.head-freight{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh;
+}
+
+.head-freight {
+    background-image: linear-gradient(
+        rgba(24, 35, 74, 0.2),
+        rgba(24, 35, 74, 0.3)
+      ),
+      url(../img/forwarder/background-forwarder.jpg);
+}
+  
+.head-freight h1 {
+    font-size: 52px;
+    color: #ffffff;
+}
+
+.head-freight .text-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .head-freight h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:568px) {
+    .head-freight{
+        height: 50vh;
+        padding-bottom: 4rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .head-freight h1 {
+        font-size: 100px;
+    }
+}
+
+/* area icons modes */
+.area-modes {
+    background: #09194e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.area-modes h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.area-modes .grid-area-modes {
+    display: grid;
+    grid-gap: 1rem;
+    align-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.area-modes .grid-area-modes img {
+    width: 18%;
+}
+
+.area-modes .grid-area-modes a {
+    padding: 6px;
+    border: 2px solid #03c0fe;
+    border-radius: 25px;
+    text-align: center;
+    color: #03c0fe;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+.area-modes .grid-area-modes .box-area-modes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.area-modes .grid-area-modes a:hover {
+    background-color: #03c0fe;
+    color: #fff;
+    transition: all 0.6s;
+}
+
+@media screen and (min-width: 597px) {
+    .area-modes .grid-area-modes {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .area-modes h1 {
+        grid-column: 1 / 4;
+        margin-bottom: 3rem;
+    }
+    .area-modes {
+        background: #09194e;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 806px) {
+    .area-modes .grid-area-modes a {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 806px) {
+    .area-modes .grid-area-modes a {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 456px) {
+    .area-modes .grid-area-modes h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 456px) {
+    .area-modes .grid-area-modes a {
+        width: 80%;
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+

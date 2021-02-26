@@ -1,0 +1,540 @@
+.header-shipper-export {
+    background-image: url(../img/shipper/background-shipper.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80vh;
+}
+
+.header-shipper-export .txt-shipper-export{
+   height: 100%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.header-shipper-export .txt-shipper-export h1 {
+    color: #fff;
+    font-size: 90px;
+}
+
+.header-shipper-export .txt-shipper-export  p {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .header-shipper-export .txt-shipper-export h1 {
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 568px) {
+    .header-shipper-export .txt-shipper-export {
+        padding-bottom: 4rem;
+     } 
+
+     .header-shipper-export {
+        height: 50vh;
+    }
+}
+
+/* ------------------------------------ */
+.world-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.world-container .bx-world-1 {
+    padding: 1rem;
+}
+
+.world-container .bx-world-1 h1 {
+    text-align: center;
+    color: #15359d;
+}
+
+.world-container .bx-world-1 p {
+    text-align: center;
+    color: #15359d;
+    text-align: justify;
+}
+
+.world-container .box-world img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 987px) {
+    .world-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 987px) {
+    .world-container h1 {
+    }
+}
+
+@media screen and (min-width: 568px) {
+    .world-container .bx-world-1 {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .world-container {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .world-container .bx-world-1 h1 {
+        font-size: 16px;
+    }
+    
+    .world-container .bx-world-1 p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .world-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+/* ------------------------------------ */
+.ready-export {
+    background-image: url(../img/shipper/img-blue.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ready-export .txt-ready-export {
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.ready-export .txt-2-ready-export {
+    width: 50%;
+}
+
+.ready-export .txt-2-ready-export p {
+  color: #fff;
+  font-size: 14px;
+}
+
+#txt-blue-hard {
+    color: #15359d;
+    font-weight: bold;
+}
+
+#txt-blue-bb {
+    color: #03c0fe;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 868px) {
+    .ready-export {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 868px) {
+    .ready-export .txt-ready-export h1 {
+        font-size: 14px;
+    }
+    .ready-export .txt-ready-export h4 {
+        font-size: 12px;
+        margin-top: 1rem;
+    }
+    .ready-export .txt-2-ready-export {
+        width: 100%;
+        padding: 1rem;
+    }
+    #txt-blue-hard {
+    text-align: center;
+    }
+    
+    #txt-blue-bb {
+    text-align: center;
+    }
+    .ready-export .txt-2-ready-export p {
+        margin-bottom: 1rem;
+      }
+      
+}
+/* ------------------------------------ */
+.export-transactions {
+    background-color: #15359d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+.export-transactions .txt-expport-transactions {
+    width: 100%;
+}
+
+.export-transactions .txt-expport-transactions h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+.export-transactions .txt-expport-transactions p {
+    color: #fff;
+    font-size: 13px;
+    text-align: justify;
+}
+
+@media screen and (min-width: 568px) {
+    .export-transactions .txt-expport-transactions {
+        max-width: 70%;
+    }
+    
+    .export-transactions {
+        padding: 4rem;
+    }
+
+    .export-transactions .txt-expport-transactions h1 {
+        font-size: 30px;
+    }
+
+    .export-transactions .txt-expport-transactions p {
+        color: #fff;
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 568px) {
+    .export-transactions .txt-expport-transactions h1 {
+        font-size: 16px;
+    }
+
+    .export-transactions .txt-expport-transactions p {
+        color: #fff;
+        font-size: 13px;
+    }
+}
+
+
+/* ------------CARDS-------------- */
+.export-transactions .card-1{
+    background-color: #fff;
+}
+
+.box-grid-cards {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1rem;
+    margin-top: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.box-grid-cards .card-1 {
+    border-radius: 15px;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    padding: 1rem;
+}
+
+.box-grid-cards .card-1 h3 {
+    color: #03c0fe;
+}
+
+.box-grid-cards .card-1 p {
+    color: #34495e  ;
+    margin-top: 1rem;
+    text-align: justify;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 1368px) {
+    .export-transactions .txt-expport-transactions {
+        max-width: 50%;
+    }
+}
+
+@media screen and (min-width: 1027px) {   
+    .box-grid-cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-grid-cards .card-1 {
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s;
+        overflow: hidden;
+        cursor: pointer;
+        border-radius: 15px;
+        height: 430px;
+        max-width: 300px;
+        padding: 1rem;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    .box-grid-cards .card-2 {
+        transform: translateY(-16px);
+        box-shadow: 5px 0 20px rgba(0, 0, 0, 0.5);
+        height: 480px;
+        margin-top: 1rem;
+
+    }
+}
+
+@media screen and (max-width: 468px) {   
+    .box-grid-cards {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .box-grid-cards .card-1 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 348px) {   
+    .box-grid-cards {
+      padding: 1rem;
+    }
+}
+
+/* ------------CARDS-------------- */
+.whatis-shipper {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shipper-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatis-shipper {
+background-image: 
+    linear-gradient(
+    rgba(24,35,74, 0.9),
+    rgba(24,35,74, 0.7)
+    ),
+    url(../img/shipper/img-ciudad.jpg);
+}
+
+.whatis-shipper .txt-whatis-shipper h1 {
+    color: #03c0fe;
+    text-align: center;
+}
+
+.whatis-shipper .txt-whatis-shipper p {
+    color: #fff;
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .whatis-shipper .txt-whatis-shipper {
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 613px) {
+    .whatis-shipper .txt-whatis-shipper h1{
+        font-size: 16px;
+    }
+    .whatis-shipper .txt-whatis-shipper p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 598) {
+    .whatis-shipper .txt-whatis-shipper h1{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .shipper-container {
+        height: 100vh;
+    }
+    .whatis-shipper .txt-whatis-shipper p {
+        padding: 0 7rem;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .whatis-shipper .txt-whatis-shipper {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .whatis-shipper .txt-whatis-shipper {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1176px) {
+    .whatis-shipper .txt-whatis-shipper {
+        width: 100%;
+    }
+}
+
+/* ------------GRID AND IMAGE FINAL SECTION-------------- */
+.grid-shipper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.grid-shipper .txt-grid-shipper {
+    padding: 1rem;
+}
+
+.grid-shipper .box-img-shipper img {
+    width: 100%;
+    height: 100%;
+}
+
+.grid-shipper .txt-grid-shipper p {
+    color: #000000;
+    font-size: 13px;
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+.grid-shipper .txt-grid-shipper h1 {
+    color: #15359d;
+    font-size: 16px;
+    text-align: center;
+}
+
+@media screen and (min-width: 968px) {
+.grid-shipper {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-shipper .box-img-shipper img {
+    width: 100%;
+    height: 100%;
+}
+.grid-shipper .txt-grid-shipper h1 {
+    font-size: 20px;
+}
+}
+
+@media screen and (min-width: 568px) {
+    .grid-shipper .txt-grid-shipper {
+        padding: 4rem;
+    }
+}
+
+@media screen and (max-width: 521px) {
+    .grid-shipper {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    .grid-shipper .txt-grid-shipper h1 {
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 421px) {
+    .grid-shipper {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+/* ------------GRID AND IMAGE FINAL SECTION-2-------------- */
+.container-grid-shipper-2 {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+@media screen and (min-width: 968px) {
+    .container-grid-shipper-2 {
+        grid-template-columns: repeat(2, 1fr);
+}
+
+.container-grid-shipper-2 .box-grid-shipper {
+    height: 400px;
+}
+
+}
+
+.container-grid-shipper-2 .box-grid-shipper {
+    display: grid;
+    padding: 1rem;
+}
+
+.container-grid-shipper-2 .box-grid-shipper h1 {
+    color: #15359d;
+    text-align: center;
+    font-size: 26px;
+}
+
+.container-grid-shipper-2 .bx-shipper-blue {
+    background-color: #15359d;
+}
+
+.container-grid-shipper-2 .box-grid-shipper p {
+    text-align: justify;
+    font-size: 13px;
+    margin-top: 1rem;
+}
+
+.container-grid-shipper-2 .bx-shipper-blue p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+#chart-white {
+   color: #fff;
+}
+
+@media screen and (min-width: 568px) {
+    .container-grid-shipper-2 .box-grid-shipper {
+        display: grid;
+        padding: 2rem;
+    }
+    .container-grid-shipper-2 .txt-shipper-box {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 521px) {
+    .container-grid-shipper-2 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+     }
+    .container-grid-shipper-2 .box-grid-shipper h1 {
+        color: #15359d;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .container-grid-shipper-2 {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     }
+}
+
+

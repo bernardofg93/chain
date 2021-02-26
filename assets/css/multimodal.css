@@ -1,0 +1,127 @@
+.header-multimodal {
+    background-image: url(../img/home/backgroound-home.jpg);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: cover;
+    height: 80vh;
+}
+.header-multimodal .txt-multimodal {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-multimodal .txt-multimodal h1 {
+    font-size: 90px;
+    color: #fff;
+}
+
+@media screen and (max-width: 569px) {
+    .header-multimodal {
+        height: 50vh;
+    }
+    .header-multimodal .txt-multimodal {
+        padding-bottom: 5rem;
+    }
+    .header-multimodal .txt-multimodal h1 {
+        font-size: 30px;
+    }
+}
+
+/* section multimodal transport blue */
+.multimodal-transport {
+    background-image: 
+    linear-gradient(
+    rgba(21, 53, 157, 0.9),
+    rgba(21, 53, 157, 0.9)
+    ),
+    url(../img/modal/blueimg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.multimodal-transport .txt-multimodal-transport {
+    width: 100%;
+    padding: 1rem;
+}
+
+.multimodal-transport .txt-multimodal-transport p {
+    color: #fff;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.multimodal-transport .txt-multimodal-transport span {
+   font-weight: bold;
+}
+
+@media screen and (min-width:624px) {
+    .multimodal-transport {
+        height:70vh;
+    } 
+    .multimodal-transport .txt-multimodal-transport {
+        width: 70%;
+    }
+     
+}
+
+@media screen and (max-width:624px) {
+    .multimodal-transport .txt-multimodal-transport p {
+        text-align: justify;
+        font-size: 14px;
+    }
+}
+
+/* multimodal-transport */
+.box-modal{
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.box-modal .img-modal img {
+    border-radius: 10px 10px 0 0;
+}
+
+.grid-modal-services {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 1rem;
+    background-color: #03c0fe;
+}
+
+.grid-modal-services img {
+  width: 100%;
+}
+
+.grid-modal-services p {
+    text-align: justify;
+    padding: 1rem;
+}
+
+@media screen and (min-width:725px) {
+    .grid-modal-services {
+        grid-template-columns: repeat(2, 1fr);
+    } 
+}
+
+@media screen and (max-width:725px) {
+    .grid-modal-services {
+        font-size: 14px;
+    } 
+}
+
+@media screen and (max-width:335px) {
+    .grid-modal-services {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    } 
+    .grid-modal-services {
+        font-size: 13px;
+    } 
+}

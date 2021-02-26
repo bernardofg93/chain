@@ -1,0 +1,175 @@
+.header-brokerage {
+    background-image: url(../img/brokerage/background-brokerage.jpg);
+    height: 80vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+
+.header-brokerage .txt-brokerage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.header-brokerage .txt-brokerage h1 {
+    font-size: 80px;
+    color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+    .header-brokerage {
+        height: 40vh;
+        width: 100vw;
+    }
+    .header-brokerage .txt-brokerage h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 569px) {
+    .header-brokerage .txt-brokerage {
+        padding-bottom: 4rem;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .header-brokerage {
+        height: 50vh;
+    }
+    .header-brokerage .txt-brokerage h1 {
+        font-size: 20px;
+    }
+}
+
+/* area about us customhouse brokers */
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-about-brokerage h1 {
+    color: var( --blue-h);
+    text-align: center;
+}
+
+.container-about-brokerage p {
+    text-align: justify;
+    margin-top: 1rem;
+    color: var(--blue-txt);
+}
+
+.container-about-brokerage {
+    padding: 1rem;
+}
+
+@media screen and (min-width:768px) {
+    .container-about-brokerage {
+        padding: 3rem;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:528px) {
+    .container-about-brokerage h1 {
+        font-size: 14px;
+    }
+    .container-about-brokerage p {
+        font-size: 13px;
+    }
+}
+
+/* list about container*/
+
+.list-brokerage h1 {
+    text-align: center;
+}
+
+.list-brokerage p {
+    text-align: justify;
+}
+
+.list-brokerage .box-1 li p span {
+    font-size: 50px;
+}
+
+/*media querys*/
+
+.list-brokerage {
+    background-image: url(../img/brokerage//us_custom.png);
+    background-position: center center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+
+.list-brokerage p {
+    color: #fff;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.list-brokerage li {
+    color: #fff;
+    width: 100%;
+}
+
+.list-brokerage h1 {
+    color: #fff;
+    font-size: 26px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .list-brokerage {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        padding: 1rem;
+    }
+    .list-brokerage p {
+        font-size: 13px;
+    }
+    .list-brokerage h1 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1060px) {
+    .list-brokerage {
+        grid-template-columns: repeat(12, 1fr);
+        grid-gap: 2rem;
+        padding: 3rem;
+    }
+    .list-brokerage .box-1 {
+        grid-column: 3 / 11;
+    }
+    .list-brokerage .box-1 p {
+        text-align: center;
+        font-size: 14px;
+    }
+    .list-brokerage .box-2 {
+        grid-column: 3 / 7;
+    }
+    .list-brokerage .box-3 {
+        grid-column: 7 / 11;
+    }
+}
+
+@media screen and (max-width: 446px) {
+    .list-brokerage {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .list-brokerage p {
+        font-size: 12px;
+    }
+    .list-brokerage h1 {
+        font-size: 14px;
+    }
+}

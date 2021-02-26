@@ -1,0 +1,218 @@
+.header-ocean {
+    background-image: url(../img/ocean/background-ocean.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.header-ocean .txt-header-ocean{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.header-ocean .txt-header-ocean h1{
+    color: #fff;
+    font-size: 80px;
+}
+
+@media screen and (max-width:678px) {
+    .header-ocean {
+        height: 50vh;
+    }
+    .header-ocean .txt-header-ocean{
+        padding-bottom: 4rem;
+    }
+    .header-ocean .txt-header-ocean h1{
+        color: #fff;
+        font-size: 30px;
+    }  
+}
+
+/*--- ocean services ---*/
+.ocean-services {
+    background-color: #03c0fe;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.ocean-services .txt-ocean-services {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.ocean-services .txt-ocean-services h1 {
+    color: #fff;
+    margin-bottom: 1rem
+}
+
+.ocean-services .txt-ocean-services p {
+    color: #fff;
+    text-align: justify;
+}
+
+.ocean-services .txt-ocean-services a {
+    color: #fff;
+    padding: 8px;
+    border: 2px solid #09194e;
+    border-radius: 20px;
+    color: #09194e;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.ocean-services .txt-ocean-services a:hover {
+   color: #fff;
+   border: 2px solid #fff;
+   transition: all 0.5s;
+}
+
+@media screen and (min-width: 510px) {
+    .ocean-services {
+        height: 50vh;
+    }
+    .ocean-services .txt-ocean-services {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .ocean-services .txt-ocean-services h1 {
+       font-size: 17px;
+    }
+ 
+    .ocean-services .txt-ocean-services p {
+       font-size: 13px;
+    }
+    
+    .ocean-services .txt-ocean-services a {
+        padding: 5px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .ocean-services .txt-ocean-services {
+        width: 50%;
+    }
+}
+
+/*--- ocean services ---*/
+.ocean-offerings {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+#title-box-offerings {
+    text-align: center;
+    font-size: 17px;
+    color: #15359d;
+    padding: 1rem;
+
+}
+
+.grid-offerings {
+    display: grid;
+    grid-gap: 1rem;
+    align-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+}
+
+.grid-offerings .box-icon-offerings {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.grid-offerings .box-img-offering {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.grid-offerings .box-icon-offerings h1 {
+    color: #03c0fe;
+    font-size: 23px;
+}
+
+.grid-offerings .box-icon-offerings img{
+  width: 25%;
+  margin-bottom: 1rem;
+}
+
+.ocean-offerings a {
+    color: #fff;
+    padding: 8px;
+    border: 2px solid #03c0fe;
+    border-radius: 20px;
+    color: #03c0fe;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+.ocean-offerings a:hover {
+    background-color: #068bb8d2;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+@media screen and (max-width: 685px) {
+    .grid-offerings .box-icon-offerings img{
+        width: 15%;
+    }
+    .ocean-offerings a {
+        font-size: 14px;
+        width: 50%;
+    }
+    .grid-offerings .box-icon-offerings h1 {
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    .ocean-offerings a {
+        width: 100%;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 433px) {
+    .grid-offerings {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media screen and (min-width: 485px) {
+    .grid-offerings {
+        grid-template-columns: repeat(3, 1fr);
+        height: 50vh;
+        width: 80%;
+    }
+
+    #title-box-offerings {
+        font-size: 30px;
+        padding: 2rem;
+
+    }
+}
+

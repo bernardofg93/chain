@@ -1,0 +1,291 @@
+.header-about {
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ 
+ .header-about .txt-about {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     width: 100%;
+     height: 100%;
+ }
+
+ .header-about {
+    background-image: 
+        linear-gradient(
+        rgba(24,35,74, 0.3),
+        rgba(24,35,74, 0.4)
+        ),
+        url(../img/about/background-about.jpg);
+}
+ 
+ .header-about .txt-about h1 {
+     font-size: 80px;
+     color: #fff;
+ }
+ 
+ @media screen and (max-width: 800px) {
+     .header-about{
+         height: 50vh;
+      }
+     .header-about .txt-about h1 {
+         font-size: 30px;
+     } 
+ }
+
+ @media screen and (max-width: 569px) {
+    .header-about .txt-about {
+        padding-bottom: 4rem;
+    }
+}
+ 
+ @media screen and (max-width: 355px) {
+     .header-about h1 {
+         font-size: 20px;
+     } 
+ }
+ 
+ @media screen and (min-width: 800px) {
+    .header-about {
+        background-position: center center;
+    }
+ }
+
+#about-txt {
+    color: #03c0fe;
+}
+
+/* =========== The company section  ============ */
+.container-thecompany {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.container-thecompany .box-thecompany {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-thecompany .box-thecompany .cont-txt-thecompany {
+    padding: 1rem;
+}
+
+.container-thecompany .box-thecompany .cont-txt-thecompany h2 {
+   text-align: center;
+   color: #15359d;
+   margin-bottom: 1rem;
+}
+
+.container-thecompany .box-thecompany .cont-txt-thecompany p {
+    text-align: justify;
+    font-size: 14px;
+    color: #15359d;
+}
+
+.container-thecompany .box-thecompany .cont-txt-thecompany li {
+    color: #fff;
+}
+
+.container-thecompany .box-thecompany .cont-txt-thecompany li p{
+    color: #fff;
+}
+
+.container-thecompany .bx-blue-thecompany {
+    background-color: #15359d;
+}
+
+@media screen and (min-width: 1044px) {
+    .container-thecompany .box-thecompany .cont-txt-thecompany {
+        width: 80%;
+        padding: 3rem;
+    }
+}
+
+
+@media screen and (min-width: 1569px) {
+    .container-thecompany .box-thecompany .cont-txt-thecompany {
+        width: 55%;
+        padding: 3rem;
+    }
+}
+
+@media screen and (max-width: 1146px) {
+    .container-thecompany .box-thecompany .cont-txt-thecompany {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 789px) {
+    .container-thecompany {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 421px) {
+    .container-thecompany {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media screen and (min-width: 463px) {
+    .container-thecompany .box-thecompany .cont-txt-thecompany {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 463px) {
+    .container-thecompany .bx-blue-thecompany  {
+        padding: 1rem;
+    }
+    .container-thecompany .box-thecompany .cont-txt-thecompany p {
+        font-size: 13px;
+    }
+}
+
+/* =========== Container vision  ============ */
+.container-vision {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, mimax(400px, 1fr));
+}
+
+.container-vision .box-txt-vision {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-vision .box-txt-vision .cont-bx-vision {
+    width: 100%;
+}
+
+.container-vision .box-txt-vision .cont-bx-vision h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.container-vision .box-txt-vision .cont-bx-vision p {
+    text-align: justify;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.container-vision .bx-vision {
+    background-color: #09194e;
+}
+
+.container-vision .bx-mision {
+    background-color: #03c0fe;
+}
+
+@media screen and (min-width: 1044px) {
+    .container-vision .box-txt-vision .cont-bx-vision {
+        width: 70%;
+    }
+    .container-vision .bx-vision {
+        padding: 4rem;
+    }
+    
+}
+
+@media screen and (max-width: 1044px) {
+    .container-vision .box-txt-vision .cont-bx-vision {
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 789px) {
+    .container-vision {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 569px) {
+    .container-vision .box-txt-vision .cont-bx-vision p {
+        font-size: 13px;
+    }
+    .container-vision .box-txt-vision .cont-bx-vision h1 {
+        font-size: 16px;
+    }
+}
+
+/* =========== Section Quality  ============ */
+.section-quality-policy {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.section-quality-policy .txt-quality-policy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../img/about/blue-cont.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.section-quality-policy .txt-quality-policy  h1 {
+    color: #fff;
+}
+
+
+.section-quality-policy .txt-quality-policy .cont-txt-quality-policy {
+    width: 100%;
+}
+
+.section-quality-policy .txt-quality-policy .cont-txt-quality-policy p {
+    margin-top: 1rem;
+    text-align: justify;
+    color: #fff;
+    font-size: 14px;
+}
+
+.section-quality-policy .img-txt-quality img{
+   width: 100%;
+   height: 100%;
+}
+
+@media screen and (min-width: 1155px) {
+    .section-quality-policy .txt-quality-policy .cont-txt-quality-policy {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1155px) {
+    .section-quality-policy .txt-quality-policy  {
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .section-quality-policy {
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+@media screen and (max-width: 569px) {
+    .section-quality-policy .txt-quality-policy h1 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .section-quality-policy {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .section-quality-policy .txt-quality-policy .cont-txt-quality-policy p {
+        font-size: 13px;
+    }
+}

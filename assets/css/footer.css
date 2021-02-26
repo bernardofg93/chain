@@ -1,0 +1,202 @@
+footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    background-color: #09194e;
+}
+
+footer p {
+  color: #9de3fa;
+}
+
+footer i {
+    color: #9de3fa;
+    font-size: 10px;
+}
+
+#copy {
+    margin-right: 4px;
+}
+
+footer .footer-1 .social-app li li{
+  color: #03c0fe;
+}
+
+footer ul img {
+    width: 3%;
+}
+
+.social-app {
+    display: flex;
+    color: #fff;
+    width: 100%;
+}
+
+.social-app .fa-facebook-f {
+    margin-left: 15px;
+}
+
+.social-app li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-1 {
+    display: grid;
+    padding: 1rem;
+}
+
+.footer-1 li {
+    display: flex;
+}
+
+
+.footer-2 {
+    display: grid;
+    padding: 1rem;
+}
+
+.footer-2 .box-2 {
+    display: flex;
+    flex-direction: column; 
+}
+
+.footer-2 .box-2 i {
+    margin-right: 5px;
+}
+
+.footer-2 li a {
+    text-decoration: none;
+    color: #03c0fe;
+}
+
+
+.footer-1 li i {
+    margin-right: 10px;
+}
+
+/* responsive */
+@media screen and (min-width: 814px) {
+    footer {
+        grid-template-columns: repeat(2, 1fr);
+        height: 250px;
+    }
+    .footer-2 {
+        display: grid;
+        align-content: center;
+        justify-items: center;
+    }
+    .footer-2 .box-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+    footer i {
+        color: #9de3fa;
+        font-size: 15px;
+    }
+}
+
+/* responsive */
+@media screen and (min-width: 499px) {
+    footer {
+        grid-template-columns: repeat(2, 1fr);
+        height: 250px;
+    }
+    .footer-2 {
+        display: grid;
+        align-content: center;
+        justify-items: center;
+    }
+    .footer-2 .box-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+    footer i {
+        color: #9de3fa;
+        font-size: 15px;
+    } 
+}
+
+/* responsive */
+@media screen and (min-width: 499px) {
+    .footer-1 {
+        align-items: center;
+        justify-content: center;
+    }
+    footer .footer-2 form input[type="submit"] {
+        width: 30%;
+       }
+}
+
+
+@media screen and (max-width: 1039px) {
+    footer {
+      font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 914px) {
+    footer {
+      font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .social-app  h2{
+       font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 364px) {
+    footer h2{
+        font-size: 9px;
+      }
+}
+
+@media screen and (max-width: 499px) {
+    footer {
+        font-size: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      }
+      footer .footer-2 form input[type="submit"] {
+        width: 100%;
+       }
+}
+
+footer .footer-2 h4 {
+    color: #03c0fe;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+footer .footer-2 form input[type="email"] {
+    border: none;
+    border-radius: 3px;
+}
+
+footer .footer-2 form input[type="email"]:focus {
+    border: 1px solid #03c0fe;
+} 
+
+
+footer .footer-2 form input[type="submit"] {
+ border: none;
+ padding: 6px;
+ margin-top: 8px;
+ border-radius: 3px;
+ background:#03c0fe;
+ color: #fff;
+ font-weight: bold;
+ font-size: 15px;
+ float: right;
+ cursor: pointer;
+}
+
+footer .footer-2 form input[type="submit"]:hover {
+    opacity: 0.8;
+   
+}

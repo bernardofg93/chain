@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --blue-pm: #03c0fe;
+    --blue-h: #15359d;
+    --blue-bd: #068bb8d2;
+    --blue-txt: #09194e;
+}
+
+nav img {
+    width: 10%;
+}
+
+nav ul {
+    display: flex;
+    background-color: #09194e;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #03c0fe;
+    transition: all 0.5s ease-in-out;
+}
+
+/* drop down 1 */
+/* responsive */
+@media screen and (max-width:1005px){
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    nav a {
+      font-size: 14px;
+    }
+}
+
+@media screen and (min-width:1005px){
+    nav ul {
+      justify-content: space-around;
+      padding: 1.70rem;
+    }
+    nav ul li a {
+        font-size: 12px;
+    }
+    .relative-1 .drop-down {
+        display: none;
+        position: absolute;
+        top: 100%;
+    }
+    .relative-1:hover .drop-down {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+        background-color: #09194e;
+    }
+    .relative-1 {
+        position: relative;
+    }
+    
+    .item-1 {
+        width: 170px;
+        left: -70px;
+        height: 50px;
+    }
+    
+    .item-2 {
+        width: 170px;
+        left: -18px;
+        height: 80px;
+    }
+    
+    .item-3 {
+        width: 180px;
+        left: -29px;
+        height: 130px;
+    }
+
+    nav ul .item-none {
+        display: none;
+    }
+    
+}
+
+/* menu mobile */
+
+label #sign-one, label #sign-two {
+    float: right;
+    cursor: pointer;
+    display: none;
+    color: #fff;
+    padding:1rem;
+    font-size: 23px;
+}
+
+#res-menu {
+    display: none;
+}
+
+@media screen and (max-width:1005px) {
+    label #sign-one {
+        display: block;
+        color: #fff;
+    }
+    nav ul {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        position: fixed;
+        width: 95%;
+        height: 500px;
+        top: 4rem;
+        left: -100%;
+        text-align: center;
+        transition: .5s;
+        z-index: 10;
+    }
+    nav ul li a {
+        font-size: 12px;
+        color: #fff;
+    }
+    #res-menu:checked~ul {
+        left: 0;
+    }
+
+    nav ul img{
+      display: none;
+    }
+
+    nav ul #label-menu {
+        width: 100%;
+    }
+
+    nav ul label #sign-one, label #sign-two {
+        float: right;
+    }
+}
