@@ -1,5 +1,5 @@
 <?php
 
-define("BASE_URL", "http://localhost/block_chain_f/");
+define("BASE_URL", "https://blchain.herokuapp.com/");
 define("controller_default", "pageController");
 define("action_default", "home");
