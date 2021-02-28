@@ -219,55 +219,56 @@
             Networks help speed your shipments through Customs quickly and in compliance at the best price possible. 
             Fastest Customs processing and release times at the border.
        </p>
-       <h3>SECTION 321 U.S.A IMPORT</h3> 
-        <p>
-            !We make you conquer the E-Commerce! DAILY IMPORT ARTICLES BY ONE PERSON 
-            into The US WITH A VALUE NOT EXCEEDING  $800 DOLLARS, !FREE OF DUTIES! 
-       </p>
        <h3>CROSS BORDER SOLUTIONS AND E-MANIFEST</h3> 
         <p>
             We can move it all. You can't afford delays in your supply chain 
             — let BLCHAIN Trade Networks help speed your shipments quickly and
              in compliance and at the best price possible. 
        </p>
-       <h3>CARRIER SERVICES (INTRA USA/ MEXICO)</h3> 
+       <h3>SECTION 321 U.S.A IMPORT</h3> 
         <p>
-            when it comes to moving through customs without delays, 
-            there is no substitute for fastest carrier at the border. 
+            !We make you conquer the E-Commerce! DAILY IMPORT ARTICLES BY ONE PERSON 
+            into The US WITH A VALUE NOT EXCEEDING  $800 DOLLARS, !FREE OF DUTIES! 
+       </p>
+       <h3>WAREHOUSE SYSTEM AND DISTRIBUTIONS SERVICES</h3> 
+        <p>
+            Ensure your merchandise is received and distributed in the most convenient,
+             cost-effective way possible.
        </p>
        <h3>BONDED CARRIER (IN-BOND MOVEMENT “IN TRANSIT” THROUGH THE US)</h3> 
         <p>
-            movement of merchandise through the United States without payment 
+            Movement of merchandise through the United States without payment 
             of duty and taxes prior to entry into domestic or foreign commerce.
        </p>
     </div>
     <div class="txt-3 tbox">
-       <h3>WAREHOUSE SYSTEM AND DISTRIBUTIONS SERVICES</h3> 
+        <h3>IMPORTATION into MEXICO </h3> 
         <p>
-            ensure your merchandise is received and distributed in the most convenient,
-             cost-effective way possible.
+            (Comercializadora) Do not take risk when importing into Mexico or Exporting from Mexico, 
+            Blockchain Logistics LLC  provides you with the services of an Importer/Comercializadora 
+            with extensive experience in Mexican Customs Clearance and Foreign Trade. 
        </p>
        <h3>FREIGHT FORWARDER & LOGISTICS SERVICES</h3> 
         <p>
-            whether you are shipping air, ocean, or ground. 
+            Hether you are shipping air, ocean, or ground. 
             When it comes to moving through customs without delays, 
             there is no substitute for experience, reliability and cost effectiveness.
+       </p>
+       <h3>GLOBAL TRADE ADVISORY AND CONSULTING SERVICES </h3> 
+        <p>
+             Will help you to quickly recognize, assess, and adapt to new import/export processes 
+             to minimize risk and gain a competitive trade advantage. 
+       </p>
+       <h3>CARRIER SERVICES (INTRA USA/ MEXICO)</h3> 
+        <p>
+            When it comes to moving through customs without delays, 
+            there is no substitute for fastest carrier at the border. 
        </p>
        <h3>US EXPORT AES SOLUTIONS for ELECTRONIC EXPORT INFORMATION FILING(EEI) </h3> 
         <p>
             Get ready to Export! and have the amazing 
             opportunity to expand your business internationally.
        </p>
-       <h3>IMPORTATION into MEXICO </h3> 
-        <p>
-            (Comercializadora) Do not take risk when importing into Mexico or Exporting from Mexico, 
-            Blockchain Logistics LLC  provides you with the services of an Importer/Comercializadora 
-            with extensive experience in Mexican Customs Clearance and Foreign Trade. 
-       </p>
-       <h3>GLOBAL TRADE ADVISORY AND CONSULTING SERVICES </h3> 
-        <p>
-             will help you to quickly recognize, assess, and adapt to new import/export processes 
-             to minimize risk and gain a competitive trade advantage. 
-       </p>
+       
     </div>
 </div>  

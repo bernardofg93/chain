@@ -1,6 +1,6 @@
 .head-carriers {
   background-image: url(../img/carrier/bacground-carrier.jpg);
-  height: 60vh;
+  height: 80vh;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
@@ -58,6 +58,7 @@
   font-weight: bold;
   color: #03c0fe;
   margin-top: 2rem;
+  cursor: pointer;
 }
 
 .bar-carriers a:hover {

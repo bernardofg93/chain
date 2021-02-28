@@ -29,7 +29,7 @@
             </p>
         </li>
         <li>
-            <p id="copy">&copy;</p><p>Copyright Blockchain Logistics</p>
+            <p id="copy">&copy;</p><p>Copyright Blockchain Logistics LLC</p>
         </li>
     </ul>
     <ul class="footer-2">

@@ -40,15 +40,13 @@
 <div class="container-location content-location">
     <div class="txt-location">
         <h1>Location</h1>
-        <p>10145 VIA DE LA AMISTAD SUITE 4, SAN DIEGO CA 92154 USA</p>
+        <p>9635 Heinrich Hertz drive , suite 4 ,San Diego CA, 92154</p>
+        
     </div>
 </div>
 
 <!-- MAP -->
 <div class="map-container">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3363.0331437130385!2d-116.930487885422!3d32.
-        55196068104053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d94704e4400001%3A0x1809b9b0bce9001b!2s
-        10145%20Via%20de%20la%20Amistad%20Ste%204%2C%20San%20Diego%2C%20CA%2092154%2C%20EE.%20UU.!5e0!3m2!1ses-419!2smx!4v1612467481259!5m2!1ses-419!2smx" 
-        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
-    </iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3362.8014947694855!2d-116.94011988431973!3d32.558142681038696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d946fff5ed84bf%3A0xafe99a7cb95aac8f!2s9635%20Heinrich%20Hertz%20Dr%20%234%2C%20San%20Diego%2C%20CA%2092154%2C%20EE.%20UU.!5e0!3m2!1ses-419!2smx!4v1614383637608!5m2!1ses-419!2smx" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </div>
